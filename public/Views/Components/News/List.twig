@@ -1,0 +1,10 @@
+{% block news_list %}
+    <section class="news">
+        <h3 class="news__title">All News</h3>
+        <div class="news__list">
+            {% for news in newsCollection %}
+                {% include "Components/News/Item.twig" with { news } %}
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

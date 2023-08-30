@@ -1,0 +1,26 @@
+{% block news_item %}
+    <div class="news__item">
+        <div class="news__item-body">
+            <span class="news__item-title" data-title="{{ news.title }}">{{ news.title }}</span>
+            <p class="news__item-description" data-description="{{ news.description }}">
+                {{ news.description }}
+            </p>
+        </div>
+        <div class="news__item-buttons buttons">
+            <button class="buttons__item buttons__item--edit">
+                <img
+                        class="buttons__item-icon"
+                        src="../../../assets/images/icons/pencil.svg"
+                        alt="edit-news"
+                >
+            </button>
+            <button data-id="{{ news.id }}" class="buttons__item buttons__item--delete">
+                <img
+                        class="buttons__item-icon"
+                        src="../../../assets/images/icons/close.svg"
+                        alt="delete-news"
+                >
+            </button>
+        </div>
+    </div>
+{% endblock %}

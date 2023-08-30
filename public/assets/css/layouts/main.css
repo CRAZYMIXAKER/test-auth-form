@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body--main {
+  background-image: url("../../images/waves.svg");
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  color: #18396b ;
+  margin: 0 auto;
+  max-width: 1500px;
+  min-height: 100vh;
+  min-width: 320px;
+  padding: 0 20px;
+}
+
+.body--main .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 700px;
+}

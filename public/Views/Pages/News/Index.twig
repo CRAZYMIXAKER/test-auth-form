@@ -1,0 +1,9 @@
+{% extends 'Layout/Main.twig' %}
+{% block content %}
+    {% if(news) %}
+        {% include 'Components/News/List.twig' with {newsCollection: news} %}
+    {% endif %}
+
+    {% include 'Components/News/Form.twig' with {newsCollection: news} %}
+    <button class="btn btn--logout">Logout</button>
+{% endblock %}

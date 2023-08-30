@@ -1,0 +1,26 @@
+{
+    "name": "mixaker/test-auth-form",
+    "authors": [
+        {
+            "name": "Mikhail Makavetski",
+            "email": "zombisuki@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "app/Controllers/",
+            "App\\Models\\": "app/Models/",
+            "App\\Services\\": "app/Services/",
+            "System\\": "system/",
+            "System\\Database\\": "system/Database/",
+            "System\\Migration\\": "system/Migration/",
+            "Helpers\\": "helpers/",
+            "Helpers\\Validations\\": "helpers/Validations/",
+            "Commands\\": "commands/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.5",
+        "ext-pdo": "*"
+    }
+}

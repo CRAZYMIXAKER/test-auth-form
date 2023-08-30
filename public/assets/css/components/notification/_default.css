@@ -1,0 +1,30 @@
+.notification {
+  display: none;
+  margin: 10px 0;
+}
+
+.notification--show {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.notification__text {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.notification__text--error {
+  background: #fff0f0;
+  border: 1px #e9cbcc solid;
+  color: #e38e81;
+}
+
+.notification__text--success {
+  background: #f7fef0;
+  border: 1px #e7f9d4 solid;
+  color: #8f9c58;
+}

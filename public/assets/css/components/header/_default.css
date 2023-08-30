@@ -1,0 +1,15 @@
+.header--default {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.header--default .header__logo {
+}
+
+.header--default .header__logo-link {
+}
+
+.header--default .header__logo-img {
+  max-height: 40px;
+}

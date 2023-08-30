@@ -1,0 +1,29 @@
+<div class="news-form">
+    <div class="news-form__header form-header">
+        <h3 class="form-header__title">Create News</h3>
+        <button class="form-header__clear-button">
+            <img class="form-header__clear-img" src="../../../assets/images/icons/close.svg" alt="clear-news-form">
+        </button>
+    </div>
+    <form class="form" id="news-form" action="/news" method="POST">
+        <div class="form__item">
+            <input
+                    type="text"
+                    name="title"
+                    placeholder="Title"
+                    required
+                    minlength="3"
+                    maxlength="255"
+            >
+        </div>
+        <div class="form__item">
+            <textarea
+                    name="description"
+                    placeholder="Description"
+                    required
+                    maxlength="1000"
+            ></textarea>
+        </div>
+        <button class="btn form__button" type="submit">Create</button>
+    </form>
+</div>

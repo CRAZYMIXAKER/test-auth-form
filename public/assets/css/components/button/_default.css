@@ -1,0 +1,15 @@
+.btn {
+  background: #18396b;
+  border-radius: 5px;
+  border: unset;
+  color: white;
+  padding: 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--logout {
+  margin-top: 16px;
+}
